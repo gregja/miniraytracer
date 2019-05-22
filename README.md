@@ -1,6 +1,8 @@
 # miniraytracer
 a small raytracer in full Javascript and full 2D Canvas (no WebGL)
 
+------------------------
+
 I discovered recently the internet site JSweet, which transpiles Java source code to Typescript and Javascript.
 
 http://www.jsweet.org/
@@ -15,6 +17,8 @@ A small raytracer, with only 400 lines of JS (ES6) code, that's pretty cool !
 
 The picture is generated with the 2D Canvas API (no WebGL used here), so it's very interesting for learning.
 
+-----------------
+
 Other interesting implementations of raytracers in full JS and 2D Canvas API :
 
 - an experimental raytracer of Oliver Hunt proposed in different versions (one version with the Webworker API)
@@ -26,5 +30,21 @@ http://www.kevs3d.co.uk/dev/phoria/
 - K3D, the ancestor of Phoria.js, written too by Kevin Roast (not maintained but very interesting to learn)
 http://www.kevs3d.co.uk/dev/canvask3d/k3d_test.html
 
-- an open source object 3D viewer for K3D :
-http://www.kevs3d.co.uk/k3d2.html
+-----------------
+
+Some good books about ray tracing :
+
+- The ray tracer challenge, by
+https://pragprog.com/book/jbtracer/the-ray-tracer-challenge
+
+- Ray tracing in 3 weeks (approximately one book by week):
+
+http://www.realtimerendering.com/raytracing/Ray%20Tracing%20in%20a%20Weekend.pdf
+
+http://www.realtimerendering.com/raytracing/Ray%20Tracing_%20The%20Next%20Week.pdf
+
+http://www.realtimerendering.com/raytracing/Ray%20Tracing_%20the%20Rest%20of%20Your%20Life.pdf
+
+- a lot of other good books about 3D and raytracing :
+
+http://www.realtimerendering.com/books.html
