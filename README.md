@@ -34,10 +34,11 @@ http://www.kevs3d.co.uk/dev/canvask3d/k3d_test.html
 
 Some good books about ray tracing :
 
-- The ray tracer challenge, by
+- The ray tracer challenge, by Jamis Buck
+
 https://pragprog.com/book/jbtracer/the-ray-tracer-challenge
 
-- Ray tracing in 3 weeks (approximately one book by week):
+- Ray tracing in 3 weeks, by Peter Shirley, (approximately one book by week):
 
 http://www.realtimerendering.com/raytracing/Ray%20Tracing%20in%20a%20Weekend.pdf
 
