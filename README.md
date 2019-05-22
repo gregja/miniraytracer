@@ -11,11 +11,11 @@ You can transpile your code in a sandbox online. In the examples proposed on the
 
 You can see the original code (transpiled by JSweet) in raytracer_v1.js.
 
-I rewrote the code in ES6 syntax, with the classes. You can see the code in raytracer_v2.js. The ES6 code is very closed to the Java version, but the transpiler helped me a lot.
+I rewrote the code in ES6 syntax, wich supports the classes. You can see the ES6 code in raytracer_v2.js. The ES6 code is very closed to the Java version, but the transpilation helped me a lot to do the job.
 
-A small raytracer, with only 400 lines of JS (ES6) code, that's pretty cool !
+The picture is generated with the 2D Canvas API (no WebGL used here), so the code is very interesting to learn.
 
-The picture is generated with the 2D Canvas API (no WebGL used here), so it's very interesting for learning.
+A small raytracer, with only 400 lines of Javascript ES6 code, that's pretty cool !
 
 -----------------
 
