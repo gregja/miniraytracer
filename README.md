@@ -9,9 +9,18 @@ http://www.jsweet.org/
 
 You can transpile your code in a sandbox online. In the examples proposed on the site, there is a small ray tracer. I tested it and the transpilation works fine. But the JS code generated is in the ES5 syntax.
 
-You can see the original code (transpiled by JSweet) in raytracer_v1.js.
+- raytracer_v1.js : the original code (transpiled by JSweet)
 
-I rewrote the code in ES6 syntax, wich supports the classes. You can see the ES6 code in raytracer_v2.js. The ES6 code is very closed to the Java version, but the transpilation helped me a lot to do the job.
+- raytracer_v2.js : I rewrote the code in ES6 syntax, wich supports the classes. The ES6 code is very closed to the Java version, but the transpilation helped me a lot to do the job.
+
+- raytracer_v3.js : the picture is drawed by manipulation of the pixels directly into the canvas. I cleaned and optimized the code.
+
+- raytracer_v4.js : the rendering calculation is shared between 4 Promises (rendering is quicker). I made a stronger separation between rendering calculation and the final display in the canvas. With that architecture, it would be easier to move the calculation part in a WebWorker, or to move it on a server (Node.js). 
+
+
+------------------
+
+Note that...
 
 The picture is generated with the 2D Canvas API (no WebGL used here), so the code is very interesting to learn.
 
