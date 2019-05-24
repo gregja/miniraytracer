@@ -443,7 +443,7 @@ function main() {
         });
     }
 
-    var ratio = 2;
+    var ratio = 4;
     var block = 256;
     var xsize = block*ratio;
     var ysize = xsize;
